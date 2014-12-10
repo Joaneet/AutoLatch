@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/orange_section" />
+    <LinearLayout android:orientation="vertical" android:id="@id/k_lockall_info" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_list_margin_linear" android:layout_marginTop="@dimen/k_sug_mtop" android:layout_marginRight="@dimen/d_list_margin_linear" android:layout_marginBottom="@dimen/k_sug_mbot">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/sug_icon_size" android:layout_height="@dimen/sug_icon_size" android:src="@drawable/bullet_all_locked" />
+            <TextView android:textSize="@dimen/sug_title_size" android:textColor="@color/k_suggestion_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sug_title_mleft" android:text="@string/k_alllocked_title" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/sug_subtitle_size" android:textColor="@color/k_suggestion_subtitle" android:id="@id/k_alllocked_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sug_subtitle_mtop" android:text="@string/k_alllocked_subtitle" />
+    </LinearLayout>
+    <LinearLayout android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.mobeta.android.dslv.DragSortListView android:id="@id/k_listview" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/list_separator" android:dividerHeight="@dimen/d_list_divider" android:fastScrollEnabled="true" android:headerDividersEnabled="true" android:footerDividersEnabled="false" dslv:collapsed_height="1.0dip" dslv:drag_scroll_start="0.33" dslv:max_drag_scroll_speed="0.5" dslv:remove_mode="flingRemove" dslv:track_drag_sort="true" dslv:float_alpha="0.6" dslv:slide_shuffle_speed="0.3" dslv:drag_enabled="true" dslv:sort_enabled="true" dslv:remove_enabled="false" dslv:drag_start_mode="onLongPress" dslv:drag_handle_id="@id/d_linear_layout_icon_text" dslv:use_default_controller="true" xmlns:dslv="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout android:background="@color/list_separator" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_ending_shadow" android:scaleType="fitXY" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_welcome" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.elevenpaths.android.latch.ui.SectionLockAll android:id="@id/d_latchon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/smoothprogressbar" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/d_latchon">
+        <include layout="@layout/d_content_dashboard" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/gap_shadow" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <Button android:textSize="@dimen/c_text_button_inf" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/d_addservice" android:background="@drawable/d_add_service_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d_add_service" android:layout_alignParentBottom="true" />
+</RelativeLayout>

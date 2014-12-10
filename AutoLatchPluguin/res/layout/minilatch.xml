@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/minilatch_canal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/minilatch_canalOn" android:background="@drawable/canal_switch_unlock" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/minilatch_canalOff" android:background="@drawable/canal_switch_lock" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/minilatch_componentsOff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/minilatch_text_size" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/minilatch_textOff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT 1" android:maxLength="9" android:shadowColor="#ff2a7d8e" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="0.5" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:translationY="-1.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/minilatch_componentsOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/minilatch_text_size" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/minilatch_textOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT 2" android:maxLines="1" android:maxLength="9" android:shadowColor="#ff707070" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="0.5" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:translationY="-1.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/minilatch_button" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/minilatch_buttonImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nodo_switch" />
+    </RelativeLayout>
+</RelativeLayout>

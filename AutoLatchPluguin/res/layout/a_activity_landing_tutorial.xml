@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_tutorial" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/f_relative_layout_points" android:layout_width="fill_parent" android:layout_height="@dimen/f_relative_layout_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/bullet1" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet2" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet3" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet4" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet5" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet6" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:src="@drawable/tutorial_page_current" />
+        </LinearLayout>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@id/a_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_viewpager_margin" android:layout_above="@id/f_relative_layout_points" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@id/a_page0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/version_size" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/a_text_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_logo_mtop" android:drawableTop="@drawable/logo_landing" android:drawablePadding="@dimen/version_padding" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/a_tologin_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/a_welcome_text" android:textColor="@color/white" android:id="@id/a_text_title0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_page0_welcome" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dim_fixed_4" android:src="@drawable/forward_landing" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/a_content_text" android:textColor="@color/b2_forgot_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/a_text_content0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_slide_msides" android:layout_marginTop="@dimen/a_slide_mtop" android:layout_marginRight="@dimen/a_slide_msides" android:text="@string/a_page0_slide" />
+                    <Button android:textSize="@dimen/a_content_text" android:textColor="@drawable/a_signin_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/a_button_signin" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_sign_mtop" android:layout_marginBottom="@dimen/a_sign_mbot" android:text="@string/a_signin" android:drawableBottom="@drawable/a_signin_arrow" android:drawablePadding="@dimen/dim_fixed_4" android:textAlignment="center" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/a_page1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f_margin_botton_image" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_0" />
+            </LinearLayout>
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/a_text_title1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page1_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/a_text_content1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page1_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/a_page2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f_margin_botton_image" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_1" />
+            </LinearLayout>
+            <TextView android:id="@id/a_text_title2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page2_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/a_text_content2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page2_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/a_page3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f_margin_botton_image" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_2" />
+            </LinearLayout>
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/a_text_title3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page3_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/a_text_content3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page3_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/a_page4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f_margin_botton_image" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_3" />
+            </LinearLayout>
+            <TextView android:id="@id/a_text_title4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page4_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/a_text_content4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page4_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/a_page5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_step_6_bis" />
+            <TextView android:textSize="@dimen/a_welcome_text" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/a_text_title5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_slide_msides" android:layout_marginTop="@dimen/a_nowprotect_mtop" android:layout_marginRight="@dimen/a_slide_msides" android:text="@string/a_page5_welcome" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_already_mtop">
+                <TextView android:textSize="@dimen/a_already_size" android:textColor="@color/b2_forgot_text" android:layout_gravity="center_horizontal" android:id="@id/a_text_content5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_page5_content1" />
+                <Button android:textSize="@dimen/a_buttons_size" android:textColor="@drawable/a_signin_color" android:layout_gravity="center_horizontal" android:id="@id/a_button_register" android:background="@drawable/button_green_border_backwhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_sign2_msides" android:layout_marginTop="@dimen/a_registerbut_mtop" android:layout_marginRight="@dimen/a_sign2_msides" android:text="@string/a_page5_register" android:textAlignment="center" />
+                <Button android:textSize="@dimen/a_buttons_size" android:textColor="@drawable/a_signin_color" android:layout_gravity="center_horizontal" android:id="@id/a_button_signin2" android:background="@drawable/button_green_border_backwhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_sign2_msides" android:layout_marginTop="@dimen/a_sign2_mtop" android:layout_marginRight="@dimen/a_sign2_msides" android:text="@string/a_page5_signin" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_register_mtop" android:layout_marginBottom="@dimen/a_registersign_mbot">
+                <TextView android:textSize="@dimen/a_already_size" android:textColor="@color/b2_forgot_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/a_text_content6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_already_msides" android:text="@string/a_page5_content2" />
+                <TextView android:textSize="@dimen/a_sign_size" android:textColor="@drawable/a_signin_color" android:layout_gravity="center_horizontal" android:id="@id/a_button_contact" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="@dimen/a_already_msides" android:text="@string/a_page5_contact" android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

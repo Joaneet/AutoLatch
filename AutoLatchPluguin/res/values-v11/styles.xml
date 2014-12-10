@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.AppCompat.Base.ProgressBar.Horizontal" parent="@android:style/Widget.Holo.ProgressBar.Horizontal" />
+    <style name="Widget.AppCompat.Base.ProgressBar" parent="@android:style/Widget.Holo.ProgressBar" />
+    <style name="Widget.AppCompat.Base.AutoCompleteTextView" parent="@android:style/Widget.Holo.AutoCompleteTextView" />
+    <style name="Widget.AppCompat.Light.Base.AutoCompleteTextView" parent="@android:style/Widget.Holo.Light.AutoCompleteTextView" />
+    <style name="Theme.Base" parent="@android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+    </style>
+    <style name="Theme.Base.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+    </style>
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:homeAsUpIndicator">@drawable/arrow_back</item>
+    </style>
+    <style name="Theme.Default" parent="@android:style/Theme.Holo" />
+    <style name="Theme.NoTitle" parent="@android:style/Theme.Holo.NoActionBar" />
+    <style name="CustomActionBarTheme" parent="@style/AppBaseTheme">
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style>
+    <style name="CustomActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">#ff000000</item>
+        <item name="android:height">@dimen/action_bar_height</item>
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/myTheme.ActionBar.SubTitle</item>
+    </style>
+    <style name="myTheme.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/action_bar_title_size</item>
+        <item name="android:textColor">@color/actionbar_title_color</item>
+    </style>
+    <style name="myTheme.ActionBar.SubTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/action_bar_subtitle_size</item>
+        <item name="android:textColor">@color/actionbar_subtitle_color</item>
+    </style>
+</resources>

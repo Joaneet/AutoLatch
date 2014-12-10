@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/orange_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#fffecb00" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:background="#fff09200" android:layout_width="fill_parent" android:layout_height="@dimen/cus_lockall_h">
+        <ImageView android:id="@id/orange_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_list_margin_linear" android:src="@drawable/icn_modified" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/orange_close" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/d_list_margin_linear" android:src="@drawable/icn_close_msg" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/cus_orange_text" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_margin_rigth" android:layout_marginRight="@dimen/d_margin_rigth" android:text="@string/custom_orange" android:layout_toLeftOf="@id/orange_close" android:layout_toRightOf="@id/orange_icon" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#ffa56400" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

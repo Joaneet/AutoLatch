@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.elevenpaths.android.latch">
+   
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />  	
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>		
+	
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.elevenpaths.android.latch.permission.C2D_MESSAGE"/>
+    <permission android:name="com.elevenpaths.android.latch.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+	<application android:allowBackup="true" android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.LatchApplication" android:theme="@style/AppTheme">
+	
+	<activity
+		android:icon="@drawable/logo_dashboard"
+		android:screenOrientation="portrait"
+		android:theme="@style/CustomActionBarTheme"
+		android:name="com.megacorp.autolatchplugin.SelOperationsActivity">
+	</activity>
+	<activity
+		android:icon="@drawable/logo_dashboard"
+		android:screenOrientation="portrait"
+		android:theme="@style/CustomActionBarTheme"
+		android:name="com.megacorp.autolatchplugin.ViewAutoLatchsActivity">
+	</activity>		
+	<activity
+		android:icon="@drawable/logo_dashboard"
+		android:screenOrientation="portrait"
+		android:theme="@style/CustomActionBarTheme"
+		android:name="com.megacorp.autolatchplugin.SelEventActivity">
+	</activity>    
+	<activity
+		android:icon="@drawable/logo_dashboard"
+		android:screenOrientation="portrait"
+		android:theme="@style/CustomActionBarTheme"
+		android:name="com.megacorp.autolatchplugin.SelWifiActivity">
+	</activity>
+	<receiver android:name="com.megacorp.autolatchplugin.AutoLatchReceiver">
+		<intent-filter>
+			<action android:name="com.megacorp.autolatchplugin.wakeup_receiver" />
+			<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+		</intent-filter>
+	</receiver>	
+		
+	
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.A_Landing" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle">
+		<intent-filter>
+			<action android:name="android.intent.action.MAIN"/>
+			<category android:name="android.intent.category.LAUNCHER"/>
+		</intent-filter>
+	</activity>
+	<activity android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.B1_Register" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:name="com.elevenpaths.android.latch.activities.B2_Login" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle" android:windowSoftInputMode="stateHidden"/>
+	<activity android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.B21_ForgotPassword" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/logo_dashboard" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.B3_LearnHow" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/logo_dashboard" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.C_AddService" android:screenOrientation="portrait" android:theme="@style/CustomActionBarTheme"/>
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.C2_PairService" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.C2_PairServiceDisabled" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.C2_PairServiceMulti" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle" android:windowSoftInputMode="stateHidden"/>
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.C2_MultiInfo" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.C3_UnpairService" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/logo_dashboard" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.D_Dashboard" android:screenOrientation="portrait" android:theme="@style/CustomActionBarTheme"/>
+	<activity android:icon="@drawable/logo_dashboard" android:name="com.elevenpaths.android.latch.activities.K_LastOperation" android:screenOrientation="portrait" android:theme="@style/CustomActionBarTheme"/>
+	<activity android:icon="@drawable/logo_dashboard" android:name="com.elevenpaths.android.latch.activities.K_MultiOperation" android:screenOrientation="portrait" android:theme="@style/CustomActionBarTheme"/>
+	<activity android:icon="@drawable/logo_dashboard" android:name="com.elevenpaths.android.latch.activities.F_LearnHowPairing" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/logo_dashboard" android:name="com.elevenpaths.android.latch.activities.G2_Terms" android:screenOrientation="portrait" android:theme="@style/CustomActionBarTheme"/>
+	<activity android:icon="@drawable/logo_dashboard" android:name="com.elevenpaths.android.latch.activities.G2_About" android:screenOrientation="portrait" android:theme="@style/CustomActionBarTheme"/>
+	<activity android:icon="@drawable/logo_dashboard" android:name="com.elevenpaths.android.latch.activities.G2_Support" android:screenOrientation="portrait" android:theme="@style/CustomActionBarTheme"/>
+	<activity android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.X_Settings" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.Z_LockAccess" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.Z2_UnlockAccess" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.Z3_ExternalChange" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.Z4_ApplicationDisabled" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<activity android:icon="@drawable/launch_icon" android:label="@string/app_name" android:name="com.elevenpaths.android.latch.activities.Z5_ApplicationEnabled" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitle"/>
+	<service android:exported="true" android:name="AccountAuthenticatorService" android:process=":auth">
+		<intent-filter>
+			<action android:name="android.accounts.AccountAuthenticator"/>
+		</intent-filter>
+		<meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+	</service>
+	<receiver android:name="com.elevenpaths.android.latch.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+		<intent-filter>
+			<action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+			<action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+			<category android:name="com.elevenpaths.android.latch"/>
+		</intent-filter>
+	</receiver>
+	<service android:name="com.elevenpaths.android.latch.GCMIntentService"/>
+	<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+</application>
+</manifest>

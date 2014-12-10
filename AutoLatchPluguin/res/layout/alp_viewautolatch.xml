@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/d_latchon">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/latchon_backgroundOn" android:background="@drawable/bg_latch_off" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/latchon_text_size" android:textColor="@color/latchon_textOn" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/latchon_textOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alp_ViewAutoLatchDesc" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/gap_shadow" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        <ListView android:id="@id/d_listview" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/list_separator" android:dividerHeight="@dimen/d_list_divider" android:fastScrollEnabled="true" android:headerDividersEnabled="true" android:footerDividersEnabled="false" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/gap_shadow" android:scaleType="fitXY" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/c_text_button_inf" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/alp_delAutoLatch" android:background="@drawable/d_add_service_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/alp_ViewAutoLatchDelbtn" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="string" name="spb_default_speed">1.0</item>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"This app won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"This app won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"This app won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_update_text">"This app won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_date_text">The date on the device appears to be incorrect. Please check the date on the device.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="auth_client_using_bad_version_title">An application attempted to use a bad version of Google Play Services.</string>
+    <string name="auth_client_needs_enabling_title">An application requires Google Play Services to be enabled.</string>
+    <string name="auth_client_needs_installation_title">An application requires installation of Google Play Services.</string>
+    <string name="auth_client_needs_update_title">An application requires an update for Google Play Services.</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by %1$s</string>
+    <string name="app_name">Latch</string>
+    <string name="row_locked">locked</string>
+    <string name="row_lock_all">Lock all</string>
+    <string name="row_all_locked">All locked</string>
+    <string name="latchon_off">"Slide
+to unlock"</string>
+    <string name="latchon_on">"Slide
+to lock all"</string>
+    <string name="latchon_single_off">"Slide
+to unlock"</string>
+    <string name="latchon_single_on">"Slide
+to lock"</string>
+    <string name="ok">OK</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="locked">locked</string>
+    <string name="unlocked">unlocked</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="cont">Continue</string>
+    <string name="a_signin">Sign in</string>
+    <string name="a_page0_welcome">Discover Latch</string>
+    <string name="a_page0_slide">Slide to learn how to protect your accounts and register</string>
+    <string name="a_page1_title">Get control over your digital life</string>
+    <string name="a_page1_subtitle">"Switch off your email, online banking and social networks when you aren't using them"</string>
+    <string name="a_page2_title">Have your favorite services integrated Latch?</string>
+    <string name="a_page2_subtitle">Check with your provider and pair from its website</string>
+    <string name="a_page3_title">You can set up the security to your needs</string>
+    <string name="a_page3_subtitle">Configure the protection of your services according to your needs</string>
+    <string name="a_page4_title">Latch alerts you of any attempt to access a locked service</string>
+    <string name="a_page4_subtitle">Latch prevents unauthorized use</string>
+    <string name="a_page5_welcome">Start protecting your services with Latch</string>
+    <string name="a_page5_content1">Have an account?</string>
+    <string name="a_page5_register">No, register</string>
+    <string name="a_page5_signin">Yes, sign in</string>
+    <string name="a_page5_content2">Questions?</string>
+    <string name="a_page5_contact">Contact us</string>
+    <string name="b2_version">Android Version</string>
+    <string name="b2_login_user">email address</string>
+    <string name="b2_login_pass">password</string>
+    <string name="b2_forgot_pass">Forgot your password?</string>
+    <string name="b2_signin">Sign in</string>
+    <string name="b2_login_messageDialog">Signing in…</string>
+    <string name="b2_login_undefinedError">There was an error during the server connection</string>
+    <string name="b2_login_toastUserError">Incorrect username or password</string>
+    <string name="b2_toastUserEmpty">The username field cannot be empty</string>
+    <string name="b2_toastPassEmpty">The password field cannot be empty</string>
+    <string name="b2_toastUserNotEmail">You should enter a valid email address</string>
+    <string name="b2_noaccount">"Don't have an account?"</string>
+    <string name="b2_register">Register</string>
+    <string name="b3_page2_subtitle">Check with your provider and, to add a service, pair it from its website. To erase it, unpair it</string>
+    <string name="b3_page3_subtitle">Set up the protection of your services to match your needs on the service details screen</string>
+    <string name="b3_page4_title">Latch will alert you of access attempts to your services</string>
+    <string name="b3_page4_subtitle">Set up your notifications to prevent unauthorized access</string>
+    <string name="b3_page5_title">Turn on autopilot</string>
+    <string name="b3_page5_subtitle">Schedule the automatic protection of your accounts by night or during custom times</string>
+    <string name="b3_page6_title">Autolock for the forgetful</string>
+    <string name="b3_page6_subtitle">"Now you don't have to remember to lock your services after using them. Latch does it for you"</string>
+    <string name="b3_page7_title">Just in case and for the unexpected...</string>
+    <string name="b3_page7_subtitle">Latches can be modified by the service provider when you need it</string>
+    <string name="b3_page8_title">Change the name of your services and operations</string>
+    <string name="b3_page8_subtitle">To rename your services and operations tap on their name at the top of the screen</string>
+    <string name="b3_page9_title">Reorder your service list</string>
+    <string name="b3_page9_subtitle">Tap on the service name for a few seconds and drag it to where you want it to be</string>
+    <string name="c_actionbar_title">Add service</string>
+    <string name="c_actionbar_subtitle">Pairing code</string>
+    <string name="c_information">"Tap the button when you're ready to enter the code into the website of the service you want to pair."</string>
+    <string name="c_information_after">Enter this code into the website of the service you are pairing with Latch. Expires in one minute.</string>
+    <string name="c_button_gettoken">Generate new code</string>
+    <string name="c_dialog_newtoken">Generating a new code…</string>
+    <string name="c_button_learn">How does pairing work?</string>
+    <string name="c_seconds_left">%1$d sec</string>
+    <string name="c_progressbar_max">60000</string>
+    <string name="c_progressbar_progress">15</string>
+    <string name="c2_actionbar_title">New service</string>
+    <string name="c2_setupnow">Set up now</string>
+    <string name="c2_setuplater">Set up later</string>
+    <string name="c2_content">The service is still unlocked. Now you can set it to add an additional level of security.</string>
+    <string name="c2_subtitle">successfully paired.</string>
+    <string name="c2_disabled_actionbar_title">Disabled service</string>
+    <string name="c2_disabled_subtitle">it has been paired, but the provider has temporarily disabled this protection.</string>
+    <string name="c2_disabled_subtitle2">protection of the service with Latch has been temporarily disabled.</string>
+    <string name="c2_disabled_content">Please, contact your service provider and specify code %s.</string>
+    <string name="c2_disabled_footer">Consult your updated service list by tapping on this button.</string>
+    <string name="c2_multi_content">You already have a service with this name. Rename it now or later by tapping on the service name on the service details screen.</string>
+    <string name="c2_multi_edittitle">Enter a name for this service:</string>
+    <string name="c2_multi_info">+ info</string>
+    <string name="c2_multi_rename">Rename</string>
+    <string name="c2_multi_service_renamed">Service renamed</string>
+    <string name="c2_multi_service_renamed_subtitle">it has been renamed.</string>
+    <string name="c3_actionbar_title">Service unpaired</string>
+    <string name="c3_button">Update service list</string>
+    <string name="c3_content">Your service list has changed. You can check the updated list by tapping on this button.</string>
+    <string name="c3_subtitle">successfully unpaired.</string>
+    <string name="d_add_service">Add a new service</string>
+    <string name="d_noApplicationsSuggestion">"To add a new service, first start the pairing from the Latch-enabled service's website. Then, tap on this screen button (✚) to generate the pairing code."</string>
+    <string name="d_noApplicationsSuggestion2">Still not sure how to do it?</string>
+    <string name="d_noApplicationsSuggestionTitle">Welcome to Latch</string>
+    <string name="d_noApplicationsSuggestion_tutorial">Learn how pairing works</string>
+    <string name="d_menu_options">More options</string>
+    <string name="d_text_button_lock">LOCKED</string>
+    <string name="d_text_button_unlock">UNLOCKED</string>
+    <string name="f_title_1">Pairing a service is really simple!</string>
+    <string name="f_content_1">To begin, start the pairing process from the website you want to pair</string>
+    <string name="f_title_2">Enter the pairing code</string>
+    <string name="f_content_2">The service website will ask for the pairing code that Latch generated on your device</string>
+    <string name="f_title_3">For security reasons, the code will expire in 1 minute</string>
+    <string name="f_content_3">If the time expires, tap the button to generate a new code</string>
+    <string name="f_title_4">You are done! Service paired</string>
+    <string name="f_content_4">Once the pairing is confirmed, you can set up the service protection options</string>
+    <string name="g_loggingout">Signing out…</string>
+    <string name="g2_terms_abtitle">Privacy and Terms</string>
+    <string name="g2_terms_title">License agreement</string>
+    <string name="g2_terms_content">"Using Latch is subject to the ElevenPaths' User License Agreement and the Latch Terms of Use. You can review these at:"</string>
+    <string name="g2_terms_button">User License Agreement</string>
+    <string name="g2_terms_third">Third-Party Licenses</string>
+    <string name="g2_conditions_button">Latch Terms of Use</string>
+    <string name="g2_about_abtitle">About Latch</string>
+    <string name="g2_about_title">The safety switch for your digital life</string>
+    <string name="g2_about_content">"Latch is a mobile service that lets you add an extra level of security to your online accounts and services.
+
+To prevent any unauthorized use, Latch gives you the control to lock your services with a single tap when you aren't using them.
+
+Simple. Security and control with a single tap."</string>
+    <string name="g2_about_footer">Version</string>
+    <string name="g2_about_footer_copyright">"Copyright %d ElevenPaths.
+All rights reserved."</string>
+    <string name="g2_support_abtitle">Help</string>
+    <string name="g2_support_title">Information</string>
+    <string name="g2_support_content">Have you checked our FAQ?</string>
+    <string name="g2_support_button1">See Frequently Asked Questions</string>
+    <string name="g2_support_subcontent">Questions? Comments? Need help?</string>
+    <string name="g2_support_contactus">Contact us</string>
+    <string name="k_two_factor">One-time password</string>
+    <string name="k_pull_twofactor">Send new password</string>
+    <string name="k_status_title">System status</string>
+    <string name="k_status_text_lock">locked</string>
+    <string name="k_status_text_lockbyparent">inherited lock</string>
+    <string name="k_status_text_unlock">unlocked</string>
+    <string name="k_alllocked_title">Total lock enabled</string>
+    <string name="k_alllocked_subtitle">Access to sub-operations has been disabled. To access or adjust them, remove the lock.</string>
+    <string name="k_schedule_diftimes">The start and end times for the schedule should be different.</string>
+    <string name="k_schedule_notconfigured">Not configured</string>
+    <string name="k_schedule_locked">SCHEDULED LOCK</string>
+    <string name="x_actionbar_title">Settings</string>
+    <string name="settings_password_askingtime">Ask for password</string>
+    <string name="setting_askingpassword_never">Never</string>
+    <string name="setting_askingpassword_1day">Every day</string>
+    <string name="setting_askingpassword_3day">Every 3 days</string>
+    <string name="setting_askingpassword_7day">Every 7 days</string>
+    <string name="setting_askingpassword_30day">Every 30 days</string>
+    <string name="setting_askingpassword_always">Always</string>
+    <string name="settings_sound_notification">Notification sounds</string>
+    <string name="settings_unlock_notification">Report access to unlocked services</string>
+    <string name="settings_time_autolock">Autolock time</string>
+    <string name="z_actionbar_title">Access attempt</string>
+    <string name="z_unlock">Unlock service</string>
+    <string name="z_content">"If it wasn't you and you continue receiving alerts, we recommend that you change your password and contact your service provider."</string>
+    <string name="z_subtitle">You have probably attempted accessing a locked service.</string>
+    <string name="z_title_loading">Loading…</string>
+    <string name="z_text_button">Loading</string>
+    <string name="z_unlock_alert_info">To unlock this operation it is necessary to unlock also these elements:</string>
+    <string name="z_unlock_alert_latchon">If you have Lock All activated for all of the services, this will also be deactivated. Do you wish to continue?</string>
+    <string name="z2_actionbar_title">Service accessed</string>
+    <string name="z2_notification_text">Notification of access to a paired service</string>
+    <string name="z2_lock">Lock service</string>
+    <string name="z2_content">"If it wasn't you, we recommend that you change your password and contact your service provider."</string>
+    <string name="z2_subtitle">"Did you just access this service?
+Don't forget to lock it again."</string>
+    <string name="z3_actionbar_title">Latch changed</string>
+    <string name="z3_content">If you did not expect this, you can contact your service provider for details on the status of your latch.</string>
+    <string name="z3_subtitle">The latch status has been changed by the service provider.</string>
+    <string name="z5_actionbar_title">Service restored</string>
+    <string name="z5_subtitle">Latch protection of the service has been restored</string>
+    <string name="error_notifications_off">"As Latch notifications are disabled, you won't receive notifications of access to your services. You can enable them using your device Settings."</string>
+    <string name="error_network_connection">There was an error during the server connection. Try again in a few seconds. If the problem continues, please contact us.</string>
+    <string name="error_no_network">There is no Internet connection at this time.</string>
+    <string name="error_parsing">There was problem obtaining information from the server. Try again in a few minutes.</string>
+    <string name="error_undefinederror">There was an error during the server connection. Please, try again.</string>
+    <string name="error_notwofactor">There was no one-time password generated for this operation</string>
+    <string name="error_unsupported_client">You are using an unsupported version of Latch. Please update the application on Google Play.</string>
+    <string name="error_outdated_client">You are using an older version of Latch. We recommend that you update it via Google Play.</string>
+    <string name="otp_title">You have received a one-time password</string>
+    <string name="otp_subtitle">Tap here to get it</string>
+    <string name="dialog_otp_title">One-time password</string>
+    <string name="dialog_otp_content1">You have received a one-time password</string>
+    <string name="dialog_updating">Updating information…</string>
+    <string name="rename_title_app">Rename service</string>
+    <string name="rename_title_op">Rename operation</string>
+    <string name="rename_message">Enter a new name for:</string>
+    <string name="sat_title">Warning</string>
+    <string name="sat_message">You may experience delays due to partial connectivity problems. Try again after a few minutes.</string>
+    <string name="nav_title">Menu</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About Latch</string>
+    <string name="nav_privacy">Terms of use</string>
+    <string name="nav_tutorial">Tutorial</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_reset">Reset password</string>
+    <string name="nav_signedas">Signed in as</string>
+    <string name="nav_signout">Sign out</string>
+    <string name="nav_share">Share</string>
+    <string name="custom_autoclose">Autolock by time</string>
+    <string name="custom_lockonrequest">Autolock by use</string>
+    <string name="custom_lockonrequest_content">"This service will automatically lock after each use. If you unlock the service but don't use it, the service will remain unlocked until you manually lock it or the Autolock by time locks it at the scheduled time."</string>
+    <string name="custom_schedule">Schedule lock</string>
+    <string name="custom_orange">The latches in orange have been changed by the service provider.</string>
+    <string name="index_orange">The orange indicators show that the service provider has made a change.</string>
+    <string name="setting_autolock_5min">5 minutes</string>
+    <string name="setting_autolock_15min">15 minutes</string>
+    <string name="setting_autolock_30min">30 minutes</string>
+    <string name="setting_autolock_1h">1 hour</string>
+    <string name="setting_autolock_3h">3 hours</string>
+    <string name="setting_autolock_10h">10 hours</string>
+    <string name="setting_autolock_1d">1 day</string>
+    <string name="wp_my_services">My services</string>
+    <string name="apache_license">"Apache License
+ Version 2.0, January 2004
+ http://www.apache.org/licenses/
+ 
+ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+ 
+ 1. Definitions.
+ 
+ License shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+ 
+ Licensor shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+
+ Legal Entity shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, control means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+
+ You (or Your) shall mean an individual or Legal Entity exercising permissions granted by this License.
+
+ Source form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+
+ Object form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+
+ Work shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+
+ Derivative Works shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+
+ Contribution shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, submitted means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as Not a Contribution.
+
+ Contributor shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+
+ 2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+
+ 3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+
+ 4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+
+ (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
+
+ (b) You must cause any modified files to carry prominent notices stating that You changed the files; and
+
+ (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+
+ (d) If the Work includes a NOTICE text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+ You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+
+ 5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+
+ 6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+
+ 7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+
+ 8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+
+ 9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+
+ END OF TERMS AND CONDITIONS"</string>
+     
+    <string name="btn_MenuAuto">Menu AutoLatchs</string>
+    <string name="alp_SelOps">Select the operations that modify the event</string>
+    <string name="alp_SelEvent">Select the triggering event</string>
+    <string name="alp_SelWifi">Select a wireless network, are listed only your safe networks</string>
+    <string name="alp_goToEvent">Select an event</string>
+    <string name="alp_goToConfigEvent">Setting</string>
+    <string name="alp_WifiEventType">Wireless Event</string>
+    <string name="alp_GPSEventType">GPS Evet</string>
+    <string name="alp_pref_title">AutoLatch configuration</string>
+    <string name="alp_pref_name">Name</string>
+    <string name="alp_pref_name_desc">Type a name</string>
+    <string name="alp_pref_Op_desc_Bloq">Blocked</string>
+    <string name="alp_pref_Op_desc_Desbloq">Unlocked</string>
+    <string name="alp_pref_Op_desc_both">Unlock when in, block when exit</string>
+    <string name="alp_pref_Op_title">The Operations are</string>
+    <string name="alp_pref_Event_desc_Entrar">Enter</string>
+    <string name="alp_pref_Event_desc_Salir">Exit</string>
+    <string name="alp_pref_Event_title">The event will be fired to</string>
+    <string name="alp_alert_noWifiConf">Enabling Wireless for receive configuration</string>
+    <string name="alp_waitGpsLocation">Waiting for receiving GPS coordinates</string>
+    <string name="alp_GpsLocation">Your GPS coordinates are</string>
+    <string name="alp_GpsRadium">Choose the radius in meters that delimit the geographical area</string>
+    <string name="alp_GpsViewPosition">View position</string>
+    <string name="alp_GpsTitle">Choose geographical area</string>
+    <string name="alp_GpsSamllRadi">The radio must be at least 200 meters</string>
+    <string name="alp_AutoLatchMenuChossTitle">AutoLatchMenu</string>
+    <string name="alp_AutoLatchMenuChoss">What do you want to do?</string>
+    <string name="alp_AutoLatchMenuCreateBtn">Create a new AutoLatch</string>
+    <string name="alp_AutoLatchMenuViewBtn">View your AutoLatchs</string>
+    <string name="alp_ViewAutoLatchDesc">Select AutoLatchs</string>
+    <string name="alp_ViewAutoLatchDelbtn">Remove selected</string>
+    <string name="alp_ViewAutolatchTitle">AutoLatchs</string>
+    <string name="alp_ListOperationsTitle">Operations</string>
+    <string name="alp_ListEventsTitle">Events</string>
+    <string name="alp_ListWifisTitle">Wireless</string>
+    <string name="alp_ListWifisTitle2">Wireless</string>
+</resources>

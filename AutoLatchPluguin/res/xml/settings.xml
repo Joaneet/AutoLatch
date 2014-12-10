@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:layout="@layout/preference_checkbox" android:title="@string/settings_sound_notification" android:key="soundNotifications" android:defaultValue="true" />
+    <CheckBoxPreference android:layout="@layout/preference_checkbox" android:title="@string/settings_unlock_notification" android:key="unlockedNotifications" android:defaultValue="false" />
+    <ListPreference android:entries="@array/password_askingtime" android:layout="@layout/preference_checkbox" android:title="@string/settings_password_askingtime" android:key="passwordAskingTime" android:summary="" android:defaultValue="0" android:negativeButtonText="@string/close" android:entryValues="@array/password_askingtime_values" />
+    <ListPreference android:entries="@array/autolock" android:layout="@layout/preference_checkbox" android:title="@string/settings_time_autolock" android:key="autolock" android:summary="" android:defaultValue="0" android:negativeButtonText="@string/close" android:entryValues="@array/autolock_values" />
+</PreferenceScreen>

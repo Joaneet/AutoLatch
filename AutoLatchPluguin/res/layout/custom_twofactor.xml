@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/twofactor_starting_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/gap_shadow" android:scaleType="fitXY" />
+    <LinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/cus_white_line" />
+    <RelativeLayout android:id="@id/twofactor_section" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/twofactor_row" android:background="@color/customrows_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center_vertical" android:paddingTop="@dimen/cus_title_pvert2f" android:paddingBottom="@dimen/cus_title_pvert2f" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/twofactor_switch_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/k_two_factor_row_relative_tooglebutton_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <include layout="@layout/twofactor_switch" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/k_otp_mleft" android:layout_marginRight="@dimen/k_otp_mright" android:layout_toLeftOf="@id/twofactor_switch_layout" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/k_otp_icon_w" android:layout_height="@dimen/k_otp_icon_h" android:src="@drawable/icn_otp" />
+                    <TextView android:textSize="@dimen/cus_title_text_size" android:textColor="@color/customrows_title" android:layout_gravity="center_vertical" android:id="@id/k_text_twofactor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/k_otp_text_mleft" android:text="@string/k_two_factor" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/cus_white_line" />
+            <LinearLayout android:background="@color/customrows_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <ImageView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/gap_shadow" android:scaleType="fitXY" />
+        </LinearLayout>
+        <Button android:textSize="@dimen/k_pull_size" android:textColor="@color/white" android:orientation="vertical" android:id="@id/twofactor_pullButton" android:background="@drawable/button_green_border_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/k_otp_pull_mside" android:layout_marginTop="@dimen/k_otp_pull_mtop" android:layout_marginRight="@dimen/k_otp_pull_mside" android:layout_marginBottom="@dimen/k_otp_pull_mtop" android:text="@string/k_pull_twofactor" android:layout_below="@id/twofactor_row" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

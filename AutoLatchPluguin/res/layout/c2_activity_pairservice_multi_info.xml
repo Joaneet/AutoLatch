@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_alert" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/alert_actionbar" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b3_page8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/img_rename" />
+        </LinearLayout>
+        <TextView android:id="@id/c2_multi_info_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page8_title" style="@style/F_TutorialTitle" />
+        <TextView android:id="@id/c2_multi_info_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page8_subtitle" style="@style/F_TutorialContent" />
+    </LinearLayout>
+</LinearLayout>

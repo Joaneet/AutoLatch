@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/k_scheduled_label" android:background="@drawable/schedule_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/k_schedulelabel_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/k_schedule_locked" android:shadowColor="@color/black" android:shadowDx="0.0" android:shadowDy="-2.0" android:shadowRadius="0.5" android:drawableLeft="@drawable/schedule_bar_icon" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/k_scroll_mbot">
+            <com.elevenpaths.android.latch.ui.SectionAutoclose android:id="@id/k_section_autoclose" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.elevenpaths.android.latch.ui.SectionLockOnRequest android:id="@id/k_section_lockonrequest" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.elevenpaths.android.latch.ui.SectionNightMode android:id="@id/k_section_nightmode" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.elevenpaths.android.latch.ui.SectionTwoFactor android:id="@id/k_section_twofactor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="600.0dip" />
+</LinearLayout>

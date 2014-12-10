@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/custom_global_row" android:paddingLeft="@dimen/d_list_margin_linear" android:paddingRight="@dimen/d_list_margin_linear" android:layout_width="fill_parent" android:layout_height="@dimen/cus_lockall_h">
+        <TextView android:textSize="@dimen/cus_lockall_text" android:textStyle="bold" android:textColor="@color/global_switch_text_on" android:id="@id/d_global_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/row_all_locked" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ToggleButton android:textSize="@dimen/d_list_button_text_size" android:id="@id/global_switch" android:background="@drawable/toggle_onoff_all" android:focusable="false" android:layout_width="wrap_content" android:layout_height="@dimen/toggle_h" android:textOn="" android:textOff="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

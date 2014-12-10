@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="autoclose_short_values">
+        <item>OFF</item>
+        <item>5 Min</item>
+        <item>15 Min</item>
+        <item>30 Min</item>
+        <item>1 Std</item>
+        <item>3 Std</item>
+        <item>10 Std</item>
+        <item>1 Tag</item>
+    </string-array>
+</resources>

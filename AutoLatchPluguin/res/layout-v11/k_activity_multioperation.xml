@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.elevenpaths.android.latch.ui.Latchon android:id="@id/k_latchon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/satellite_latencies" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:src="@drawable/satellite_icon_bar" android:layout_alignBottom="@id/k_latchon" android:layout_centerHorizontal="true" />
+        <include layout="@layout/smoothprogressbar" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/k_content_multioperation" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/gap_shadow" android:scaleType="fitXY" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_alert" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/c_ab" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/alert_actionbar" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/c_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/c_pair_button_text_size" android:textColor="@color/z_button" android:id="@id/c2_button_setupnow" android:background="@drawable/button_light_white_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2_buttons_mside" android:layout_marginTop="@dimen/c2_buttons_mtop" android:layout_marginRight="@dimen/c2_buttons_mside" android:text="@string/c2_setupnow" />
+        <Button android:textSize="@dimen/c_pair_button_text_size" android:textColor="@color/z_button" android:id="@id/c2_button_setuplater" android:background="@drawable/button_light_blue_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2_buttons_mside" android:layout_marginTop="@dimen/c2_buttons_mtop" android:layout_marginRight="@dimen/c2_buttons_mside" android:layout_marginBottom="@dimen/c2_buttons_mbot" android:text="@string/c2_setuplater" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/c_buttons" android:layout_below="@id/c_ab" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/c2_logo" android:layout_width="@dimen/c_pair_image_size" android:layout_height="@dimen/c_pair_image_size" android:layout_marginTop="@dimen/c_pair_relative_layout_margin" android:src="@drawable/latch_welcome" />
+            <TextView android:textSize="@dimen/c_pair_text_view_text_size_title" android:textStyle="bold" android:textColor="@color/c2_title" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/c2_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c_pair_text_view_margin_lateral" android:layout_marginTop="@dimen/c_pair_text_view_margin_top" android:layout_marginRight="@dimen/c_pair_text_view_margin_lateral" android:text="" android:singleLine="true" android:textAlignment="center" />
+            <TextView android:textSize="@dimen/c_pair_text_view_text_size_subtitle" android:textColor="@color/c2_subtitle" android:gravity="center_horizontal" android:id="@id/c2_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c_pair_text_view_margin_lateral" android:layout_marginRight="@dimen/c_pair_text_view_margin_lateral" android:layout_marginBottom="@dimen/c2_subtitle_mbot" android:text="@string/c2_subtitle" android:textAlignment="center" />
+            <TextView android:textSize="@dimen/c_pair_text_view_content_text_size" android:textColor="@color/c2_content" android:gravity="center_horizontal" android:id="@id/c2_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c_pair_text_view_content_margin_lateral" android:layout_marginTop="@dimen/c_pair_text_view_content_margin_top" android:layout_marginRight="@dimen/c_pair_text_view_content_margin_lateral" android:text="@string/c2_content" android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

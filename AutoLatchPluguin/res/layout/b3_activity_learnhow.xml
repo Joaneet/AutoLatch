@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_tutorial" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/b3_button_back" android:background="@drawable/close_tutorial_back" android:layout_width="fill_parent" android:layout_height="@dimen/tut_back_h" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/f_relative_layout_points" android:layout_width="fill_parent" android:layout_height="@dimen/f_relative_layout_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/bullet1" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet2" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet3" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet4" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet5" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet6" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet7" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet8" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+            <ImageView android:id="@id/bullet9" android:layout_width="@dimen/tut_bullet" android:layout_height="@dimen/tut_bullet" android:layout_marginRight="@dimen/tut_bullet_margin" android:src="@drawable/tutorial_page_current" />
+        </LinearLayout>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@id/b3_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_viewpager_margin" android:layout_above="@id/f_relative_layout_points" android:layout_below="@id/b3_button_back" android:overScrollMode="never">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b3_page1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_0" />
+            </LinearLayout>
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/f_text_title1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page1_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/f_text_content1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page1_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b3_page2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_1" />
+            </LinearLayout>
+            <TextView android:id="@id/f_text_title2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page2_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/f_text_content2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page2_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b3_page3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_2" />
+            </LinearLayout>
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/f_text_title3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_page3_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/f_text_content3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page3_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b3_page4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_3" />
+            </LinearLayout>
+            <TextView android:id="@id/f_text_title4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page4_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/f_text_content4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page4_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b3_page5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_4" />
+            </LinearLayout>
+            <TextView android:id="@id/f_text_title5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page5_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/f_text_content5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page5_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b3_page6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_5" />
+            </LinearLayout>
+            <TextView android:id="@id/f_text_title6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page6_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/f_text_content6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page6_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b3_page7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_6" />
+            </LinearLayout>
+            <TextView android:id="@id/f_text_title7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page7_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/f_text_content7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page7_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b3_page8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_9" />
+            </LinearLayout>
+            <TextView android:id="@id/f_text_title8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page8_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/f_text_content8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page8_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b3_page9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_margin_botton_image" android:src="@drawable/help_step_10" />
+            </LinearLayout>
+            <TextView android:id="@id/f_text_title9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page9_title" style="@style/F_TutorialTitle" />
+            <TextView android:id="@id/f_text_content9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b3_page9_subtitle" style="@style/F_TutorialContent" />
+        </LinearLayout>
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

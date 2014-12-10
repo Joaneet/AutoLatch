@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ToggleButton android:textSize="11.0dip" android:id="@id/nightmode_switch" android:background="@drawable/toggle_2fa" android:focusable="false" android:layout_width="wrap_content" android:layout_height="@dimen/toggle_h" android:textOn="" android:textOff="" />
+</RelativeLayout>

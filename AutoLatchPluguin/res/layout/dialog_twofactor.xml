@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialog_twofactor_textview_text_size" android:textColor="@color/otp_content" android:id="@id/dialog_otp_content1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_twofactor_margin" android:layout_marginTop="@dimen/dialog_twofactor_margin" android:layout_marginRight="@dimen/dialog_twofactor_margin" android:text="@string/dialog_otp_content1" />
+    <TextView android:textSize="@dimen/dialog_twofactor_token_text_size" android:textColor="@color/otp_token" android:gravity="center_horizontal" android:id="@id/dialog_otp_token" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_twofactor_margin" android:layout_marginTop="@dimen/dialog_twofactor_margin" android:layout_marginRight="@dimen/dialog_twofactor_margin" android:layout_marginBottom="@dimen/dialog_twofactor_margin" android:text="" />
+</LinearLayout>

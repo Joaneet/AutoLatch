@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/latchon_backgroundOn" android:background="@drawable/bg_latch_off" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/latchon_backgroundOff" android:background="@drawable/bg_latch_on" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/latchon_canal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/latchon_canalOn" android:background="@drawable/canal_unlock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/latchon_canalOff" android:background="@drawable/canal_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/latchon_componentsOff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/latchon_canalOff" android:layout_centerVertical="true">
+            <ImageView android:id="@id/latchon_imgOff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/latchon_arrow_mleft" android:src="@drawable/arrow_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/latchon_text_size" android:textColor="@color/latchon_textOff" android:gravity="left|center" android:layout_gravity="center_vertical" android:id="@id/latchon_textOff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/latchon_text_separation" android:text="@string/latchon_off" android:layout_toRightOf="@id/latchon_imgOff" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/latchon_componentsOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/latchon_canalOff" android:layout_centerVertical="true">
+            <ImageView android:id="@id/latchon_imgOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/latchon_arrow_mright" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/latchon_text_size" android:textColor="@color/latchon_textOn" android:gravity="right|center" android:layout_gravity="center_vertical" android:id="@id/latchon_textOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/latchon_text_separation" android:text="@string/latchon_on" android:layout_toLeftOf="@id/latchon_imgOn" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/latchon_button" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/latchon_buttonOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nodo_unlock" />
+        <ImageView android:id="@id/latchon_buttonOff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nodo_lock" />
+    </RelativeLayout>
+</RelativeLayout>

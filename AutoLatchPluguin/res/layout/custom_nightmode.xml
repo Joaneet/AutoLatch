@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/customrows_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/cus_white_line" />
+    <LinearLayout android:orientation="vertical" android:background="@color/customrows_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/nightmode_relative" android:paddingLeft="@dimen/cus_title_pleft" android:paddingTop="@dimen/cus_title_pvert2f" android:paddingBottom="@dimen/cus_title_pvert2f" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/nightmode_switch_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/k_two_factor_row_relative_tooglebutton_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <include layout="@layout/nightmode_switch" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/cus_title_text_size" android:textColor="@color/customrows_title" android:id="@id/nightmode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_schedule" android:shadowColor="@color/white" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="0.5" android:drawableLeft="@drawable/icn_schedule" android:drawablePadding="@dimen/cus_title_text_mleft" android:layout_toLeftOf="@id/nightmode_switch_layout" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/nightmode_enabled" android:background="@color/custom_disabled" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/custom_content" android:paddingLeft="@dimen/cus_title_pleft" android:paddingRight="@dimen/cus_title_pright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cus_seek_mtop" android:layout_marginBottom="@dimen/cus_title_pvert">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/scale_scheduled" />
+            <RelativeLayout android:id="@id/seekbar_ly" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/cus_white_line" />
+    <LinearLayout android:background="@color/customrows_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

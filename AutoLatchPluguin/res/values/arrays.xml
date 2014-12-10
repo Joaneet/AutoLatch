@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="password_askingtime">
+        <item>@string/setting_askingpassword_never</item>
+        <item>@string/setting_askingpassword_1day</item>
+        <item>@string/setting_askingpassword_3day</item>
+        <item>@string/setting_askingpassword_7day</item>
+        <item>@string/setting_askingpassword_30day</item>
+        <item>@string/setting_askingpassword_always</item>
+    </string-array>
+    <string-array name="password_askingtime_values">
+        <item>-1</item>
+        <item>86400</item>
+        <item>259200</item>
+        <item>604800</item>
+        <item>2592000</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="autolock">
+        <item>@string/setting_autolock_5min</item>
+        <item>@string/setting_autolock_15min</item>
+        <item>@string/setting_autolock_30min</item>
+        <item>@string/setting_autolock_1h</item>
+        <item>@string/setting_autolock_3h</item>
+        <item>@string/setting_autolock_10h</item>
+        <item>@string/setting_autolock_1d</item>
+    </string-array>
+    <string-array name="autolock_values">
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>600</item>
+        <item>1440</item>
+    </string-array>
+    <string-array name="autoclose_short_values">
+        <item>OFF</item>
+        <item>5 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1h</item>
+        <item>3h</item>
+        <item>10h</item>
+        <item>1d</item>
+    </string-array>
+</resources>
