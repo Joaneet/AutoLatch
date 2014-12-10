@@ -1,0 +1,1 @@
+call %2\d2j-apk-sign.bat -f -o %1\newLatchSigned.apk %1\newLatch.apk
