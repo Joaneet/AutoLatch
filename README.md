@@ -16,10 +16,15 @@ Compilation
 requirements for compilation are
 
 ➢ Download Github repository https://github.com/Joaneet/AutoLatch
+
 ➢ Android SDK
+
 ➢ dex2jar tool
+
 ➢ apktool tool
+
 ➢ Zip tool
+
 
 Compile : You can use Android SDK directly or import the project into Eclipse to perform the compilation
 Note: That step is optional since the apk compiled already is in the repository Github.
