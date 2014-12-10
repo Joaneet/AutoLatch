@@ -8,7 +8,7 @@ set newLatchDir=c:\AutoLatchPlugin\final
 set ModjasminCodeDir=c:\AutoLatchPlugin\latchMOD\jasmincode
 set AutoLatchPluguinAPK=c:\AutoLatchPlugin\AutoLatchPluguin\bin\AutoLatchPluguin.apk
 set adbExe=c:\android\adt-bundle-windows-x86_64-20130917\sdk\platform-tools\adb
-set apktoolBat=apktoot.bat
+set apktoolBat=C:\AutoLatchPlugin\apktool.bat
 @echo on
 
 call copyResources.bat %OriginalApkDir% %AutoLatchPluguinDir%\res %newManifest% %dex2jarToolsDir% %apktoolBat%
